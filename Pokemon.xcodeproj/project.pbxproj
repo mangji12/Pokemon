@@ -57,9 +57,25 @@
 		FA9B55862BDA810C0047AAA1 /* Pokemon */ = {
 			isa = PBXGroup;
 			children = (
-				FA9B55872BDA810C0047AAA1 /* main.c */,
+				FA9B558F2BDA81230047AAA1 /* header */,
+				FA9B558E2BDA811B0047AAA1 /* src */,
 			);
 			path = Pokemon;
+			sourceTree = "<group>";
+		};
+		FA9B558E2BDA811B0047AAA1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FA9B55872BDA810C0047AAA1 /* main.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		FA9B558F2BDA81230047AAA1 /* header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
